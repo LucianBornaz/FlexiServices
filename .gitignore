@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FlexiServices.v2.ncrunchsolution
+/.vs/FlexiServices/v14/.suo
