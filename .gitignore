@@ -4,3 +4,6 @@
 
 /FlexiServices.v2.ncrunchsolution
 /.vs/FlexiServices/v14/.suo
+/FlexiServices.Client/obj/Debug
+*.ncrunchproject
+/FlexiServices.Service/obj/Debug
