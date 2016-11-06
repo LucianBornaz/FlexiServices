@@ -7,3 +7,5 @@
 /FlexiServices.Client/obj/Debug
 *.ncrunchproject
 /FlexiServices.Service/obj/Debug
+_NCrunch_FlexiServices/FlexiServices.crunchsolution.cache
+FlexiServices.ncrunchsolution.user
