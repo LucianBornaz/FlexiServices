@@ -3,9 +3,14 @@
 ################################################################################
 
 /FlexiServices.v2.ncrunchsolution
-/.vs/FlexiServices/v14/.suo
-/FlexiServices.Client/obj/Debug
 *.ncrunchproject
-/FlexiServices.Service/obj/Debug
-_NCrunch_FlexiServices/FlexiServices.crunchsolution.cache
+_NCrunch_FlexiServices
 FlexiServices.ncrunchsolution.user
+/.vs
+/packages
+/src/FlexiServices.Client/obj
+/src/FlexiServices.Client/bin
+/src/FlexiServices.Service/obj
+/src/FlexiServices.Service/bin
+/src/Tests/FlexiServices.AcceptanceTests/obj
+/src/Tests/FlexiServices.AcceptanceTests/bin

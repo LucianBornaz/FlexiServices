@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiServices.Client", "FlexiServices.Client\FlexiServices.Client.csproj", "{B8E093C0-D200-4629-B941-FCC926223081}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiServices.Service", "FlexiServices.Service\FlexiServices.Service.csproj", "{100E3994-4A23-446C-BA31-A411C1CF4122}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{350F93D3-097F-4DE2-B927-E255E5FB515D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiServices.Client", "Src\FlexiServices.Client\FlexiServices.Client.csproj", "{B8E093C0-D200-4629-B941-FCC926223081}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiServices.Service", "Src\FlexiServices.Service\FlexiServices.Service.csproj", "{100E3994-4A23-446C-BA31-A411C1CF4122}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexiServices.AcceptanceTests", "Src\Tests\FlexiServices.AcceptanceTests\FlexiServices.AcceptanceTests.csproj", "{499F9AE1-C64C-406E-B914-C745C36B32F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,8 +25,15 @@ Global
 		{100E3994-4A23-446C-BA31-A411C1CF4122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{100E3994-4A23-446C-BA31-A411C1CF4122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{100E3994-4A23-446C-BA31-A411C1CF4122}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499F9AE1-C64C-406E-B914-C745C36B32F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499F9AE1-C64C-406E-B914-C745C36B32F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499F9AE1-C64C-406E-B914-C745C36B32F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499F9AE1-C64C-406E-B914-C745C36B32F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{499F9AE1-C64C-406E-B914-C745C36B32F6} = {350F93D3-097F-4DE2-B927-E255E5FB515D}
 	EndGlobalSection
 EndGlobal
