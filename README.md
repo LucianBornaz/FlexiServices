@@ -1,6 +1,6 @@
 # FlexiServices
 
-Library which helps to refactor existing monolithic solution and run classes as WCF services without changing the code.
+Library which helps to refactor existing monolithic solutions and run classes as WCF services without changing the code.
 Classes run as WCF services need to be moved in a separate project than the interfaces they implement.
 DI container needs to be set up to create a channel to the newly created WCF service instead of a instance of the class.
 
