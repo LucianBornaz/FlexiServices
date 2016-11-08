@@ -7,4 +7,4 @@ DI container needs to be set up to create a channel to the newly created WCF ser
 Advantages:
 - classes can be easily set up to be consumed directly or as WCF services;
 - no need to change the existing code, only DI container settings;
-- existing exception handling (try-catch) will work as before.
+- existing exceptions handling (try-catch) will work as before.
