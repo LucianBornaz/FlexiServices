@@ -36,9 +36,11 @@ namespace FlexiServices.AcceptanceTests
         public void TearDown()
         {
             var channel = _client as IClientChannel;
-            channel?.Close();
+            if (channel != null && (channel.State != CommunicationState.Closed && channel.State != CommunicationState.Closing))
+                channel.Close();
 
-            _serviceHost.Close();
+            if (_serviceHost != null && (_serviceHost.State != CommunicationState.Closed && _serviceHost.State != CommunicationState.Closing))
+                _serviceHost.Close();
         }
 
         [Test]

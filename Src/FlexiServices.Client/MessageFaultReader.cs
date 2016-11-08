@@ -45,10 +45,9 @@ namespace FlexiServices.Client
                 {
                     return (Exception) Serializer.ReadObject(reader);
                 }
-
                 catch (SerializationException ex)
                 {
-                    return new CommunicationException("SerializationException", ex);
+                    return new CommunicationException("Could not deserialize the exception", ex);
                 }
             }
         }
